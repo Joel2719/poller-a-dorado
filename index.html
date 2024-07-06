@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/img/favi-pollo.png" type="image/x-icon">
+    
+    <!-- icon  link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <title>Polleria</title>
+</head>
+<body>
+    <!-- 
+        #HEADER STARTS
+    -->
+    <header class="header" id="header">
+        <a href="#" class="logo">
+            <img src="assets/img/logo.png" alt="">
+        </a>
+        <nav class="navbar">
+            <img src="assets/img/nav-pollo.png" alt="nav pollo" class="navbar__img">
+            <ul class="navbar__links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Acerca</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#review">Reseñas</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="assets/img/cart-item-1.png" alt="">
+                <div class="content">
+                    <h3>Combo Familiar</h3>
+                    <div class="price">S/. 15.99</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="assets/img/cart-item-2.png" alt="">
+                <div class="content">
+                    <h3>Alitas Picantes</h3>
+                    <div class="price">S/. 15.99</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="assets/img/cart-item-3.png" alt="">
+                <div class="content">
+                    <h3>Pollo a la Brasa</h3>
+                    <div class="price">S/. 15.99</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="assets/img/cart-item-4.png" alt="">
+                <div class="content">
+                    <h3>Combo Familiar</h3>
+                    <div class="price">S/. 15.99</div>
+                </div>
+            </div>
+            <a href="#" class="btn">Finalizar compra</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- 
+        #HOME STARTS
+        -->
+        <section class="home section" id="home">
+            <div class="content home__content">
+                <h3 class="home__title">Delicioso Pollo Fresco Todos los Días</h3>
+                <p>Descubre el sabor incomparable de nuestros platos preparados con esmero en El Rincón del Pollo. Calidad y sabor en cada bocado.</p>
+                <a href="#menu" class="btn" id="home-btn">Prueba el Mejor Pollo Hoy</a>
+            </div>
+        </section>
+
+        <!-- 
+            #ABOUT STARTS
+        -->
+        <section class="about section" id="about">
+            <h1 class="heading about__title"> <span>Sobre</span> Nosotros </h1>
+            <div class="row">
+                <div class="image">
+                    <img src="assets/img/about-img.jpg" alt="about image" class="about__img">
+                </div>
+                <div class="content about__content">
+                    <h3>¿Qué hace especial a nuestro pollo?</h3>
+                    <p>En El Rincón del Pollo, nos enorgullecemos de ofrecer el pollo más jugoso y delicioso, preparado con ingredientes frescos y una receta secreta que resalta todo su sabor. Cada bocado es una experiencia culinaria única que te hará volver por más.</p>
+                    <p>Utilizamos solo los mejores ingredientes, cuidamos cada detalle en la preparación y nos dedicamos a ofrecerte una experiencia gastronómica inigualable. ¡Ven y descubre por qué todos hablan de nuestro pollo!</p>
+                    <a href="#blogs" class="btn">Conoce Más</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 
+            #MENU STARTS
+        -->
+        <section class="menu section" id="menu">
+            <h1 class="heading">Nuestro <span>Menú</span></h1>
+            <div class="box-container menu__container">
+                <div class="box">
+                    <img src="assets/img/menu-1.jpg" alt="">
+                    <h3>Pollo a la Brasa Especial</h3>
+                    <div class="price">S/. 45.99 <span>S/. 50.99</span></div>
+                    <a href="https://wa.me/1234567890" class="btn" target="_blank">Realizar Pedido</a>
+                </div>
+                <div class="box">
+                    <img src="assets/img/menu-2.jpg" alt="">
+                    <h3>Pollo a la Parrilla</h3>
+                    <div class="price">S/. 40.99 <span>S/. 45.99</span></div>
+                    <a href="https://wa.me/1234567890" class="btn" target="_blank">Realizar Pedido</a>
+                </div>
+                <div class="box">
+                    <img src="assets/img/menu-3.jpg" alt="">
+                    <h3>Pollo Frito Crujiente</h3>
+                    <div class="price">S/. 35.99 <span>S/. 39.99</span></div>
+                    <a href="https://wa.me/1234567890" class="btn" target="_blank">Realizar Pedido</a>
+                </div>
+                <div class="box">
+                    <img src="assets/img/menu-4.jpg" alt="">
+                    <h3>Alitas Picantes</h3>
+                    <div class="price">S/. 25.99 <span>S/. 29.99</span></div>
+                    <a href="https://wa.me/1234567890" class="btn" target="_blank">Realizar Pedido</a>
+                </div>
+                <div class="box">
+                    <img src="assets/img/menu-5.jpg" alt="">
+                    <h3>Ensalada de Pollo</h3>
+                    <div class="price">S/. 20.99 <span>S/. 25.99</span></div>
+                    <a href="https://wa.me/1234567890" class="btn" target="_blank">Realizar Pedido</a>
+                </div>
+                <div class="box">
+                    <img src="assets/img/menu-6.jpg" alt="">
+                    <h3>Combo Familiar</h3>
+                    <div class="price">S/. 79.99 <span>S/. 89.99</span></div>
+                    <a href="https://wa.me/1234567890" class="btn" target="_blank">Realizar Pedido</a>
+                </div>   
+            </div>
+        </section>
+
+        <!-- 
+            #PRODUTS STARST
+        -->
+        <section class="products section" id="products">
+            <h1 class="heading">Nuestros <span>Productos</span></h1>
+            <div class="box-container products__container">
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="assets/img/product-1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Combo Familiar Especial</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">S/. 79.99 <span>S/. 89.99</span></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye" id="cart-product"></a>
+                    </div>
+                    <div class="image">
+                        <img src="assets/img/product-2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Pollo a la Brasa Tradicional</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">S/. 45.99 <span>S/. 50.99</span></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="assets/img/product-3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Alitas Picantes</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">S/. 25.99 <span>S/. 29.99</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 
+            #REVIEW STARTSR
+        -->
+        <section class="review section" id="review">
+            <h1 class="heading">Opiniones de <span>Clientes</span> </h1>
+            <div class="box-container review__container">
+                <div class="box">
+                    <img src="assets/img/qoute-img.png" alt="" class="quote">
+                    <p>¡El mejor pollo a la brasa que he probado! La carne es jugosa y el sabor es increíble. Definitivamente volveré por más.</p>
+                    <img src="assets/img/pic-1.jpg" class="user" alt="">
+                    <h3>María Pérez</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="assets/img/qoute-img.png" alt="" class="quote">
+                    <p>El Rincón del Pollo es mi lugar favorito para comer en familia. El ambiente es acogedor y la comida es deliciosa.</p>
+                    <img src="assets/img/pic-2.jpg" class="user" alt="">
+                    <h3>Juan López</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="assets/img/qoute-img.png" alt="" class="quote">
+                    <p>Me encantaron las alitas picantes. Tienen el nivel justo de picante y están perfectamente cocidas. ¡Muy recomendadas!</p>
+                    <img src="assets/img/pic-3.jpg" class="user" alt="">
+                    <h3>Ana Torres</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 
+            #CONTACT STARTS
+        -->
+        <section class="contact section" id="contact">
+            <h1 class="heading"> <span>contacto</span> </h1>
+            <div class="row">
+                <iframe class="map contact__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1672607.5699698913!2d-76.11724094560554!3d-13.167716942938052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x911287b17ee72877%3A0x88ad1032fefaac44!2sPOLLERIA%20CHIFA%20%22El%20Mostrito%22!5e0!3m2!1ses!2spe!4v1719296813992!5m2!1ses!2spe" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="content contact__content">
+                    <h3>Contacta con Nosotros</h3>
+                    <p>En "El Rincón del Pollo", estamos comprometidos con brindar la mejor atención y servicio a nuestros clientes. Si tienes alguna consulta o deseas realizar un pedido, no dudes en ponerte en contacto con nosotros a través de WhatsApp. ¡Estamos aquí para ayudarte!</p>
+                    <div class="contact-icons">
+                        <a href="tel:+1234567890" class="contact-icon"><i class="fas fa-phone"></i> +51 956 789 000</a>
+                        <a href="Av. Javier Prado Este 1234" class="contact-icon"><i class="fas fa-envelope"></i> info@elrincondelpollo.com</a>
+                    </div>
+                    <a href="https://wa.me/1234567890" class="btn" id="whatsapp-btn"><i class="fab fa-whatsapp"></i>WhatsApp</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 
+            #BLOG STARTS
+        -->
+        <section class="blogs section" id="blogs">
+            <h1 class="heading">Nuestro <span>Blog</span></h1>
+            <div class="box-container blogs__container">
+                <div class="box">
+                    <div class="image">
+                        <img src="assets/img/blog-1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <a href="#" class="title">Descubre cómo hacemos nuestro delicioso pollo a la brasa</a>
+                        <span>por admin / 21 de mayo de 2023</span>
+                        <p>Explora nuestro proceso único para preparar el pollo a la brasa más sabroso que hayas probado.</p>
+                        <a href="#" class="btn">Leer más</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="assets/img/blog-2.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <a href="#" class="title">Los secretos detrás de nuestras irresistibles alitas de pollo</a>
+                        <span>por admin / 21 de mayo de 2023</span>
+                        <p>Descubre cómo logramos que nuestras alitas de pollo sean tan crujientes y llenas de sabor.</p>
+                        <a href="#" class="btn">Leer más</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="assets/img/blog-3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <a href="#" class="title">Recetas creativas con pollo: ¡Inspírate y cocina en casa para toda la familia!</a>
+                        <span>por admin / 21 de mayo de 2023</span>
+                        <p>Explora nuestras ideas para cocinar pollo en casa con un toque especial de "El Rincón del Pollo".</p>
+                        <a href="#" class="btn">Leer más</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 
+        #FOOTER STARTS
+    -->
+    <footer class="footer footer__content">
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="links">
+            <a href="#home">Inicio</a>
+            <a href="#about">Acerca</a>
+            <a href="#menu">Menú</a>
+            <a href="#products">Productos</a>
+            <a href="#review">Reseñas</a>
+            <a href="#contact">Contacto</a>
+            <a href="#blogs">Blogs</a>
+        </div>
+
+        <div class="credit">&#169; creado por <span>Joel Ircañaupa</span> | todos los derechos reservados</div>
+    </footer>
+
+    <!-- SCROLLREVEAL -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <!-- CUSTOM JS FILE LINK -->
+
+     <script src="assets/js/script.js"></script>
+</body>
+</html>
